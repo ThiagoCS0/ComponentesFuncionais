@@ -7,13 +7,6 @@
 
 > Objetivo: Atualizar o título da aba do navegador conforme o usuário interage com o componente.
 
-Instruções:
-
-- Crie um componente chamado TitleUpdater.
-- Use useState para criar uma variável de estado number.
-- Use useEffect para atualizar o título da aba do navegador toda vez que number mudar.
-- Adicione botões para incrementar e decrementar number.
-
 <hr>
 
 ### 2: Monitoramento de Largura da Janela
