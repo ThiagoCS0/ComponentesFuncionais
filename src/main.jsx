@@ -13,12 +13,12 @@ import Navegacao from './components/Navegacao.jsx'
 const rotas=createBrowserRouter([
   {path:"/", element:<App/>,children:[
     {path:"/ComponentesFuncionais", element:<TitleUpdater/>},
-    {path:"/TitleUpdater", element:<TitleUpdater/>}, {path:'/TitleUpdater',element:<TitleUpdater/>},
-    {path:'/WindowSize',element:<WindowSize/>}, {path:'/WindowSize',element:<WindowSize/>},
-    {path:'/PersistentCounter',element:<PersistentCounter/>}, {path:'/PersistentCounter',element:<PersistentCounter/>},
-    {path:'/RealTimeClock',element:<RealTimeClock/>}, {path:'/RealTimeClock',element:<RealTimeClock/>},
-    {path:'/ToggleText',element:<ToggleText/>}, {path:'/ToggleText',element:<ToggleText/>},
-    {path:'/LimitedCounter',element:<LimitedCounter/>}, {path:'/LimitedCounter',element:<LimitedCounter/>}
+    {path:"/ComponentesFuncionais/TitleUpdater", element:<TitleUpdater/>},
+    {path:'/ComponentesFuncionais/WindowSize',element:<WindowSize/>},
+    {path:'/ComponentesFuncionais/PersistentCounter',element:<PersistentCounter/>},
+    {path:'/ComponentesFuncionais/RealTimeClock',element:<RealTimeClock/>},
+    {path:'/ComponentesFuncionais/ToggleText',element:<ToggleText/>},
+    {path:'/ComponentesFuncionais/LimitedCounter',element:<LimitedCounter/>},
   ]}
 ]);
 
