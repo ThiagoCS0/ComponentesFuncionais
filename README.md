@@ -3,28 +3,22 @@
 <br/>
 <br/>
 
-## Exercícios do 1 ao 6
+## Exercícios do 1 ao 6 - Ciclo de vida em componentes funcionais
 > do curso de Fullstack +praTI
 
-## Ciclo de vida em componentes funcionais
+<br/>
 
 ### 1: Atualização de Título com useEffect
 
 > Objetivo: Atualizar o título da aba do navegador conforme o usuário interage com o componente.
 
-<hr>
-
 ### 2: Monitoramento de Largura da Janela
 
 > Objetivo: Criar um componente que monitore e exiba a largura da janela do navegador, atualizando-se conforme a janela é redimensionada.
 
-<hr>
-
 ### 3: Sincronização de Estado com Local Storage
 
 > Objetivo: Sincronizar o estado de um componente com o Local Storage para manter dados entre as sessões do navegador.
-
-<hr>
 
 ### 4: Relógio em Tempo Real
 
