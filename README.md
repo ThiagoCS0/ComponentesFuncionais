@@ -3,8 +3,8 @@
 <br/>
 <br/>
 
-## Exercícios do 1 ao 6 - Ciclo de vida em componentes funcionais
-> do curso de Fullstack +praTI
+## Exercícios do 1 ao 6 - do curso de Fullstack +praTI
+> Ciclo de vida em componentes funcionais
 
 <br/>
 
