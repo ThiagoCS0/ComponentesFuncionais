@@ -98,10 +98,6 @@ p{
   text-align: justify;
 }
 
-p::first-letter{
-  color:#0AF;
-}
-
 #tamanho{
   align-self: center;
 }
@@ -138,7 +134,7 @@ code{
 }
 
 code::selection{
-  color: #0BF;
+  color: #0CF;
   background-color: #035;
 }
 
@@ -155,14 +151,31 @@ code::selection{
 
 #textoVisivel p{
   transition: all 0.5s;
+
 }
 
 #divEntrada{
   display: flex;
   margin: 20px 0;
+  align-self: center;
+  width: fit-content;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+#pEntrada{
+  width: 100px;
+  height: 40px;
+  color: #DDD;
+  display: flex;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 0 !important;
+  margin: 0 !important;
+  background-color: #444;
 }
 
 .botao{
@@ -183,15 +196,20 @@ code::selection{
  }
 
  .entrada{
+  width: 100px;
   height: 40px;
   outline: none;
   color: #DDD;
   font-size: large;
   text-align: center;
-  width: fit-content;
   padding: 10px 20px;
   width: 100px !important;
   background-color: #047;
 }
 
+.entrada:hover, .entrada:focus{
+  
+  border: 1px solid #047;
+  border-bottom: 1px solid #FFF;
+}
 @media only screen and (max-width: 600px){}
